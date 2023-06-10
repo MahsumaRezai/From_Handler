@@ -1,0 +1,18 @@
+.cart {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px ghostwhite;
+
+}
+
+.content {
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+
+}
