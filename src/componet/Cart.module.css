@@ -1,0 +1,17 @@
+.card {
+    background-color: white;
+    width: 50%;
+    color: black;
+    transition: background-color 0.5s ease-in-out 0s;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top);
+    margin: auto;
+    border: 1px solid saddlebrown;
+    margin-top: 20px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
