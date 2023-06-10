@@ -1,12 +1,14 @@
 import Addaction from "./componet/UI/Addaction";
 
 const App = () => {
- 
+  
+
+
 
   return (
     <div>
-      <Addaction/>
-    
+      <Addaction />
+
     </div>
   )
 
