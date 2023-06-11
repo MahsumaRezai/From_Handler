@@ -1,5 +1,5 @@
 import classes from './open.module.css';
-import { Fragment, useState } from 'react';
+import { Fragment } from 'react';
 const OpenCart = (props) => {
     return (
         <Fragment>
@@ -17,6 +17,7 @@ const OpenCart = (props) => {
                         <button className={classes.btns}>submit</button>
                         <button className={classes.btns}>close</button>
                     </div>
+
                 </form>
             </div>
         </Fragment>

@@ -6,7 +6,7 @@ const AddCart = (props) => {
         <Fragment>
 
             <Cart>
-                <Button onClick={props.onShowCart}>open</Button>
+                <Button onClick={props.onShowCart}>Form Submitaion</Button>
             </Cart>
         </Fragment>
     )
