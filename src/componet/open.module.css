@@ -1,15 +1,17 @@
 .cart {
     background-color: white;
-    width: 30%;
+    width: 50%;
     color: white;
     transition: background-color 0.5s ease-in-out 0s;
     padding-bottom: 12px;
     box-sizing: border-box;
     padding-top: env(safe-area-inset-top);
     margin: auto;
-    border: 1px solid saddlebrown;
-    box-shadow: 5px 5px 5px 5px rgb(221, 141, 141);
-    color: rgb(186, 73, 73);
+    border: none;
+    box-shadow: 1px 1px 1px 1px ghostwhite;
+    color: black;
+    margin-top: 20px;
+    border-radius: 10px;
 }
 
 .form {
@@ -18,6 +20,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 10px;
+    padding: 20px;
 }
 
 .btn {
@@ -30,32 +33,29 @@
 
 .input {
     font: inherit;
-    border: none;
-    border: 1px solid rgb(221, 141, 141);
-    transition: 0.5s ease-in-out 0s;
-    font-size: 15px;
-    color: white;
-    font-family: sans-serif;
-    width: 400px;
+    display: block;
+    width: 80%;
+    border: 1px solid #ccc;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
     height: 30px;
-    border-radius: 5px;
 
 }
 
 .label {
-    font-size: 20px;
+    font-size: 17px;
     font-family: sans-serif;
-    font-weight: bold;
+    text-align: start;
 }
 
 .btns {
     width: 80px;
     height: 40px;
     border: none;
-    background-color: rgb(221, 141, 141);
+    background-color: midnightblue;
     transition: 0.5s ease-in-out 0s;
     font-size: 17px;
-    color: black;
+    color: white;
     font-family: sans-serif;
 
 }
